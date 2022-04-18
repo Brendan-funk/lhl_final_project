@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS puzzles CASCADE;
+CREATE TABLE puzzles (
+  id SERIAL PRIMARY KEY NOT NULL,
+  puzzle_type VARCHAR(255) NOT NULL,
+  date_created DATE NOT NULL,
+);
